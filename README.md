@@ -23,6 +23,7 @@ My EFI configuration for **macOS Mojave** on Ryzen.
 - [x] Wifi
 - [x] Bluetooth 
 - [x] Proper GPU support
+- [ ] Mic
 
 ### Not tested
 * FileVault
