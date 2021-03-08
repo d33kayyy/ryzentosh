@@ -43,4 +43,9 @@ _This setup was built a year ago that I don't remember anything anymore xD_
 
 ### Kexts
 
-_This setup was built a year ago that I don't remember anything anymore xD_
+* [AppleALC 1.5.0](https://github.com/acidanthera/AppleALC/releases/tag/1.5.0)
+* [Lilu 1.4.5](https://github.com/acidanthera/Lilu/releases/tag/1.4.5)
+* [RealtekRTL8111 2.2.2](https://github.com/Mieze/RTL8111_driver_for_OS_X/releases/tag/v2.2.2)
+* [VirtualSMC 1.1.4](https://github.com/acidanthera/VirtualSMC/releases/tag/1.1.4)
+* [WhateverGreen 1.4.0](https://github.com/acidanthera/WhateverGreen/releases/tag/1.4.0)
+
