@@ -13,7 +13,7 @@ My EFI configuration for **macOS Mojave** on Ryzen.
 | **HDD (Data)** | Western Digital Caviar Blue 1TB |
 | **ETHERNET** | _onboard_ |
 | **AUDIO** | _onboard_ |
-| **WIFI** | _tbd_ |
+| **WIFI** | Broadcom BCM94360 |
 
 ## Compatibility checklist
 - [x] Audio (Front panel and back)
