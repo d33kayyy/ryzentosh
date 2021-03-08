@@ -33,6 +33,7 @@ My EFI configuration for **macOS Mojave** on Ryzen.
 
 I followed the [OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/prerequisites.html).
 
+[OpenCore 0.5.9](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.5.9)
 ### config.plist
 
 _This setup was built a year ago that I don't remember anything anymore xD_
