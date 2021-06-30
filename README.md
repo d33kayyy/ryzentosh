@@ -1,6 +1,6 @@
 # Ryzentosh
 
-My EFI configuration for **macOS Mojave** on Ryzen.
+My EFI configuration for **macOS Catalina (10.15.7)** on AMD Ryzen.
 
 ## Key specifications
 
@@ -9,7 +9,7 @@ My EFI configuration for **macOS Mojave** on Ryzen.
 | **CPU** | AMD Ryzen 5 3600 |
 | **MOTHERBOARD** | MSI B450 Tomahawk Max |
 | **GPU** | MSI Radeon RX 570 ARMOR 8G OC |
-| **SSD (System)** | Samsung 860 Evo 250GB |
+| **SSD (System)** | SSD Samsung 980 PCIe NVMe V-NAND M.2 2280 500GB |
 | **HDD (Data)** | Western Digital Caviar Blue 1TB |
 | **ETHERNET** | _onboard_ |
 | **AUDIO** | _onboard_ |
@@ -21,7 +21,7 @@ My EFI configuration for **macOS Mojave** on Ryzen.
 - [x] Ethernet
 - [x] Sleep
 - [x] Wifi
-- [x] Bluetooth 
+- [ ] Bluetooth 
 - [x] Proper GPU support
 - [ ] Mic
 
@@ -33,20 +33,17 @@ My EFI configuration for **macOS Mojave** on Ryzen.
 
 I followed the [OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/prerequisites.html).
 
-[OpenCore 0.5.9](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.5.9)
-### config.plist
+* [OpenCore 0.7.0](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.7.0)
 
-_This setup was built a year ago that I don't remember anything anymore xD_
+### ACPI
 
-### Drivers
-
-_This setup was built a year ago that I don't remember anything anymore xD_
+* [SSDT-EC-USBX-DESKTOP.aml](https://github.com/dortania/Getting-Started-With-ACPI/blob/b8e37ede5ec68165918cfd611e2afd3075f7fe27/extra-files/compiled/SSDT-EC-USBX-DESKTOP.aml)
 
 ### Kexts
 
-* [AppleALC 1.5.0](https://github.com/acidanthera/AppleALC/releases/tag/1.5.0)
-* [Lilu 1.4.5](https://github.com/acidanthera/Lilu/releases/tag/1.4.5)
-* [RealtekRTL8111 2.2.2](https://github.com/Mieze/RTL8111_driver_for_OS_X/releases/tag/v2.2.2)
-* [VirtualSMC 1.1.4](https://github.com/acidanthera/VirtualSMC/releases/tag/1.1.4)
-* [WhateverGreen 1.4.0](https://github.com/acidanthera/WhateverGreen/releases/tag/1.4.0)
-
+* [AppleALC 1.6.1](https://github.com/acidanthera/AppleALC/releases/tag/1.6.1)
+* [Lilu 1.5.3](https://github.com/acidanthera/Lilu/releases/tag/1.5.3)
+* [RealtekRTL8111 2.4.2](https://github.com/Mieze/RTL8111_driver_for_OS_X/releases/tag/v2.4.2)
+* [VirtualSMC 1.2.4](https://github.com/acidanthera/VirtualSMC/releases/tag/1.2.4)
+* [WhateverGreen 1.5.0](https://github.com/acidanthera/WhateverGreen/releases/tag/1.5.0)
+* [AirportBrcmFixup 2.1.2](https://github.com/acidanthera/AirportBrcmFixup/releases/tag/2.1.2) (needed this for Wifi)
